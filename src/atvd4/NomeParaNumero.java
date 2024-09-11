@@ -61,7 +61,7 @@ public class NomeParaNumero {
                 String palavraAtual = palavra.toString().toLowerCase();
                 if (mapPalavras.containsKey(palavraAtual)) {
                     numeroConvertido.append(mapPalavras.get(palavraAtual));
-                    palavra.setLength(0); 
+                    palavra.setLength(0);
                 }
             }
         }
