@@ -8,7 +8,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class Calibracao {
+public class Calibracao2 {
     public static void main(String[] args) {
         String caminhoArquivo = "C:/Users/jande/IdeaProjects/paradigmas_de_linguagens/src/atvd_1_nota_2/new_calibration_text.txt";
 
