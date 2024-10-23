@@ -10,11 +10,7 @@ public class UranoIntegra implements IBalanca<Produto> {
 
     @Override
     public void exportar(List<Produto> produtos, String pastaArquivoTxt) {
-        File directory = new File(pastaArquivoTxt);
 
-        if (!directory.exists()) {
-            throw new IllegalArgumentException("Diretório não existe: " + pastaArquivoTxt);
-        }
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(pastaArquivoTxt + "/PRODUTOS.TXT"))) {
             for (Produto produto : produtos) {
